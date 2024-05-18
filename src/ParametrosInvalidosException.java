@@ -1,2 +1,7 @@
-public class ParametrosInvalidosException extends Throwable {
+
+public class ParametrosInvalidosException extends Exception {
+
+    public ParametrosInvalidosException(String message) {
+        super(message);
+    }
 }
